@@ -59,7 +59,7 @@ function App() {
     <main>
       <h1 className='title'>Tenzies</h1>
     {tenzies ? (<h2 className='congrats'>You win, Congratulations!<br/>You used {step} steps.<br/>Do better next run?</h2>):
-    (<p className='instruction'>Roll until all dice are the same. Click each die to freeze it at its current value between rolls.</p>)}
+    (<p className='instruction'>Roll until all dice are the same. Click each dice to freeze it at its current value between rolls.</p>)}
       <div className='dice-box'>
         {diceElements}
       </div>
